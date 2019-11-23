@@ -1,0 +1,21 @@
+
+
+
+	STARTING WITH MAIN
+	calling macro
+	
+	print abc
+	def is also present
+	
+		
+		inside nested 
+		it has this argument: abc
+	
+	outside nested
+	
+	caling macro using default arguments	
+	
+	print value of arguments : abc and default2
+	
+	ending macro2
+	

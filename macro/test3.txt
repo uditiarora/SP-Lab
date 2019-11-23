@@ -1,0 +1,6 @@
+$DEF abc (&arg1,&arg2) { print this with &arg1 and &arg2 }
+
+
+
+hello 
+abc e,g

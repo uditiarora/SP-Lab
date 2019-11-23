@@ -1,0 +1,34 @@
+#DEF macro1 
+	&arg1
+	&arg2
+	
+	print &arg1
+	&arg2 is also present
+	
+	#DEF nested
+		&arg1
+		
+		inside nested 
+		it has this argument: &arg1
+	END
+	
+	outside nested
+END
+
+#DEF macro2
+	&arg1 = default1
+	&arg2 = default2
+	
+	print value of arguments : &arg1 and &arg2
+	
+	ending macro2
+END
+
+
+	STARTING WITH MAIN
+	calling macro
+	macro1 abc,def
+	
+	caling macro using default arguments	
+	macro2 &arg1 = abc
+	

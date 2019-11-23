@@ -1,0 +1,24 @@
+#DEF macro1 
+	&arg1
+	&arg2
+
+	#IF &arg1 <= &arg2 and &arg1 >= 0 :
+	
+		line1
+		line2
+		#IF &arg1 >= 0 :
+			inside nested if
+		#ENIF
+		
+	#ENIF
+	#ELSE:
+		line3
+		line4
+	#ENELSE
+	
+	print it
+END
+
+
+	macro1 2,3
+	hiiii
