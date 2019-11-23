@@ -1,2 +1,2 @@
 # SP-Lab
-SP Lab 4th sem 
+System Programming Lab 4th sem 
